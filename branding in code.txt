@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branding in the Rough</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif; /* General font */
+            background-color: #F9F9F9;
+            color: #262944; /* Dark blue for text */
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #B5E2E1; /* Soft teal */
+            color: #262944; /* Contrast for readability */
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-family: 'Hussar Ekologiczy', sans-serif; /* Main header font */
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        .cta {
+            background-color: #BD9B2D; /* Golden yellow */
+            color: white;
+            text-align: center;
+            padding: 15px 30px;
+            margin-top: 20px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .cta:hover {
+            background-color: #C91C7F; /* Bright pink for hover */
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .section-title {
+            font-family: 'Buffalo', cursive; /* Secondary font */
+            font-size: 2.5em;
+            color: #C96294; /* Muted pink */
+            margin-bottom: 20px;
+        }
+
+        .content {
+            font-size: 1.2em;
+            margin: 20px auto;
+            max-width: 800px;
+            line-height: 1.8;
+        }
+
+        footer {
+            background-color: #262944; /* Dark blue */
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer a {
+            color: #B5E2E1;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Branding in the Rough</h1>
+        <p>Your business is a diamond in the rough—let us help you shine.</p>
+    </header>
+
+    <!-- About Section -->
+    <section>
+        <h2 class="section-title">About Us</h2>
+        <div class="content">
+            At <strong>Branding in the Rough</strong>, we empower small businesses to establish their brand identity with confidence. Whether you’re starting fresh or looking to refine your existing branding, our resources and workbooks are designed to take the guesswork out of marketing. Let’s build a brand your customers can trust.
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section>
+        <h2 class="section-title">Our Workbooks</h2>
+        <div class="content">
+            Explore actionable, easy-to-follow workbooks tailored for small business owners. Whether you need help defining your audience, crafting a brand message, or building a marketing plan, we’ve got you covered.
+        </div>
+        <a href="#workbooks" class="cta">Shop Workbooks</a>
+    </section>
+
+    <!-- Free Resources Section -->
+    <section>
+        <h2 class="section-title">Free Resources</h2>
+        <div class="content">
+            Kickstart your journey with our free resource guide. Packed with tools, templates, and recommendations, this guide is your first step toward building a strong foundation for your business.
+        </div>
+        <a href="#free-resources" class="cta">Download Free Guide</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Branding in the Rough. All Rights Reserved. | <a href="#contact">Contact Us</a></p>
+    </footer>
+</body>
+</html>
